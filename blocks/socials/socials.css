@@ -1,0 +1,6 @@
+.socials {
+  position: fixed;
+  left: calc(47/1920*100%);
+  max-width: 50px;
+  width: 100%;
+}

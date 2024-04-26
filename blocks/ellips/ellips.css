@@ -1,0 +1,25 @@
+.ellips1 {
+  max-width: 204px;
+  min-height: 204px;
+  width: 100%;
+  border-radius: 50%;
+  background-color: #BBC5D308;
+  position: absolute;
+  top: -102px ;
+  left: -102px;
+  border: none;
+}
+
+.ellips2 {
+  display: flex;
+  max-width: 634px;
+  min-height: 634px;
+  width: calc(634/1320*100%);
+  height: calc(634/1320*100%);
+  border-radius: 50%;
+  background-color: #171929;
+  position: absolute;
+  right: -25px;
+  bottom: 25px;
+  border: none;
+}

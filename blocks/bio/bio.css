@@ -1,0 +1,8 @@
+.bio {
+  max-width: 1320px;
+  width: 100%;
+  display: flex;
+  position: relative;
+  padding: 263px 0 225px;
+  align-items: center;
+}

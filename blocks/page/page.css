@@ -1,0 +1,23 @@
+.page {
+  max-width: 1920px;
+  min-width: 320px;
+  min-height: 100vh;
+  padding: 0 calc((100% - 1320px) / 2);
+  margin: 0 auto;
+  background-color:#1F2235;
+  font-family: 'Inter','Arial', 'Helvetica', sans-serif;
+  font-style: normal;
+  color: #fff;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
+}
+@media screen and (max-width: 1920px) {
+  .page {
+    width: 100%;
+    padding: 0;
+  }
+}
