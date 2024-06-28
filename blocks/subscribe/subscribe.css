@@ -1,0 +1,8 @@
+.subscribe {
+  display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  margin: 0 auto;
+  background-color: #1F2235;
+  padding: calc(120/1920*100%) 0;
+}

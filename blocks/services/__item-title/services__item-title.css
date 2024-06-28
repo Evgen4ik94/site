@@ -1,0 +1,16 @@
+.services__item-title {
+  padding: 7% 0;
+  font-size: 1.25em;
+  line-height: 2;
+  letter-spacing: normal;
+  background: none;
+  box-shadow: none;
+  text-align: left;
+}
+
+@media screen and (max-width: 520px) {
+  .services__item-title {
+    font-size: .75em;
+    padding: 5px 0;
+  }
+}

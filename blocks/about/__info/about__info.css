@@ -1,0 +1,6 @@
+.about__info {
+  max-width: 50%;
+    display: flex;
+    flex-flow: column wrap;
+    padding: 1%;
+}

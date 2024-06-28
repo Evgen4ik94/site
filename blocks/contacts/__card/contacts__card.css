@@ -1,0 +1,14 @@
+.contacts__card {
+  display: flex;
+  column-gap: 10px;
+  background-color: #24263B;
+  border: 1px solid #FFFFFF20;
+  padding: 4.86486486% 6.75675675% 4.59459459% 8.108108108%;
+  border-radius: 8px;
+}
+
+@media screen and (max-width: 1024px) {
+  .contacts__card {
+    padding: 5%;
+  }
+}

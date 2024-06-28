@@ -1,0 +1,22 @@
+.menu__mobile {
+  position: fixed;
+  display: none;
+    gap: 10px;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    align-items: center;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100%;
+  background-color: #1F2235;
+  z-index: 998;
+  overflow: hidden;
+  transition: all ease-in-out 1s;
+}
+
+@media screen and (min-width: 768px) {
+  .menu__mobile {
+    display: none;
+  }
+}

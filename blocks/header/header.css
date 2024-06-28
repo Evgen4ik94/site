@@ -1,8 +1,26 @@
 .header {
-  max-width: 1320px;
-  width: 100%;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 22px 0 28px;
+    justify-content: space-between;
+    align-items: center;
+  padding-top: calc(22/1320*100%);
+  padding-bottom: calc(28/1320*100%);
+}
+
+@media screen and (max-width: 1440px) {
+  .header {
+    padding-top: calc(22/1920*100%);
+    padding-bottom: calc(28/1920*100%);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    position: fixed;
+    top: 0;
+    padding: 0 20px;
+    background-color:#3b3d54;
+    z-index: 999;
+    max-width: 768px;
+    width: 100%;
+  }
 }

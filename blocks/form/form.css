@@ -1,0 +1,12 @@
+.form {
+  width: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 18px;
+}
+
+@media screen and (max-width: 768px) {
+  .form {
+    gap: 10px;
+  }
+}

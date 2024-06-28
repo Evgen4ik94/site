@@ -1,0 +1,7 @@
+.contacts {
+  display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+  padding: calc(120/1920*100%) 0;
+  margin: 0 auto;
+}

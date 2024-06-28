@@ -1,5 +1,12 @@
 .banner {
-  max-width: 1320px;
-  width: 100%;
   position: relative;
+}
+
+@media screen and (max-width: 520px) {
+  .banner {
+      display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+        padding-bottom: calc(100 / 1024* 100%);
+  }
 }

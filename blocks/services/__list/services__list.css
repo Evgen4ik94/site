@@ -1,0 +1,9 @@
+.services__list {
+  display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    column-gap: calc(31/1320*100%);
+  padding-top: calc(55/1320*100%);
+  width: 100%;
+  max-width: 1320px;
+}

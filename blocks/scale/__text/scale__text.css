@@ -1,0 +1,5 @@
+.scale__text {
+  width: 100%;
+  display: flex;
+    justify-content: space-between;
+}

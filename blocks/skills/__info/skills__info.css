@@ -1,0 +1,7 @@
+.skills__info {
+  max-width: 50%;
+  width: 100%;
+  display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+}

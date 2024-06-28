@@ -1,0 +1,5 @@
+.skills__tabs {
+  justify-content: start;
+  padding: calc(47/806*100%) 0;
+  column-gap: 20px;
+}

@@ -1,0 +1,30 @@
+.menu__btn {
+  width: 30px;
+  height: 30px;
+  padding: 8px;
+  display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  cursor: pointer;
+  background-color: transparent;
+  border-radius: 2px;
+  border: none;
+  z-index: 999;
+  /*background-image: url(../../../images/burger.png);
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: 75%;*/
+}
+
+
+
+.menu__btn:hover {
+  opacity: .7;
+}
+
+@media screen and (min-width: 769px) {
+  .menu__btn {
+    display: none;
+  }
+}

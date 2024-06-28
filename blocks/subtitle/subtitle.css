@@ -1,0 +1,15 @@
+.subtitle {
+  padding-top: 20px;
+  margin: 0;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 48px;
+}
+
+@media screen and (max-width: 1024px) {
+  .subtitle {
+    font-size: 1.5em;
+    line-height: 1;
+    padding-top: 10px;
+  }
+}

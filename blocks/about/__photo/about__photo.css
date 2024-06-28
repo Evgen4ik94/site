@@ -1,0 +1,12 @@
+.about__photo {
+  position: relative;
+    /* align-self: flex-end; */
+    max-width: calc(600 / 1320* 100%);
+    width: 100%;
+    background-image: url(../../../images/fon.png);
+    background-size: contain;
+    /* background-position: 50%; */
+    background-repeat: no-repeat;
+    /* height: 0; */
+    padding-bottom: 45.5%;
+}

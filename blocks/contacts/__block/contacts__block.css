@@ -1,0 +1,8 @@
+.contacts__block {
+  max-width: 370px;
+  width: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 20px;
+  height: fit-content;
+}

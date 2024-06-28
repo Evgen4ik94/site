@@ -1,0 +1,13 @@
+.scale {
+  display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 43px;
+}
+
+
+@media screen and (max-width: 1024px) {
+  .scale {
+    gap: 20px;
+  }
+}

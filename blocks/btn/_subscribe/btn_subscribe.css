@@ -1,0 +1,8 @@
+.btn_subscribe {
+  max-width: calc(190/550*100%);
+  width: 100%;
+  border-radius: 80px;
+  height: auto;
+  border-color: #FE461C;
+  border-style: none;
+}

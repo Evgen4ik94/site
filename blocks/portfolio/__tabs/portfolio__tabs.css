@@ -1,0 +1,15 @@
+.portfolio__tabs {
+  padding: 54px 0 36px;
+}
+
+@media screen and (max-width: 1024px) {
+  .portfolio__tabs {
+    padding: 25px 0;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .portfolio__tabs {
+    padding: 10px 0;
+  }
+}

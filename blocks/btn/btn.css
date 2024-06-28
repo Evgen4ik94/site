@@ -1,4 +1,37 @@
 .btn {
+  width: 160px;
+  height: 50px;
   border-radius: 5px;
   background-color: #FE461C;
+  color: #fff;
+  transition: all ease-in-out .5s;
+  border: none;
+  font-size: 1em;
+}
+
+.btn:hover {
+  background-color: #0acf83;
+}
+
+@media screen and (max-width: 1280px) {
+  .btn {
+    width: 100px;
+    height: 30px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .btn {
+    padding: 5px;
+    width: 100px;
+    height: 30px;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .btn {
+      padding: 5px;
+      width: 60px;
+      height: 22px;
+  }
 }
