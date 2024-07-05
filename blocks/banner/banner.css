@@ -1,0 +1,11 @@
+.banner {
+  position: relative;
+}
+
+@media screen and (max-width: 520px) {
+  .banner {
+    display: flex;
+      flex-flow: column-reverse nowrap;
+      align-items: center;
+  }
+}

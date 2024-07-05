@@ -1,0 +1,22 @@
+.text {
+  font-size: 1em;
+  line-height: 1.625;
+  text-overflow: ellipsis;
+  white-space: wrap;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  word-wrap: break-word;
+}
+
+@media screen and (max-width: 1280px) {
+  .text {
+    font-size: 0.85em;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .text {
+      font-size: 0.55em;
+  }
+}

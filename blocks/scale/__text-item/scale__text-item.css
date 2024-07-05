@@ -1,0 +1,11 @@
+.scale__text-item {
+  font-size: 1.25em;
+  line-height: 25px;
+  letter-spacing: normal;
+}
+
+@media screen and (max-width: 520px) {
+  .scale__text-item {
+    line-height: 1;
+  }
+}

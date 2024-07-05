@@ -1,0 +1,30 @@
+.contacts__card-icon {
+  display: flex;
+  max-width: 70px;
+  width: 100%;
+  height: 70px;
+  border-radius: 50%;
+  background-color: #2e3045;
+  box-shadow: 0 0 24px 0 #0F101842;
+  transition: all ease-in-out .5s;
+}
+
+.contacts__card-icon:hover {
+  opacity: .8;
+}
+
+@media screen and (max-width: 1440px) {
+  .contacts__card-icon {
+    max-width: 50px;
+    width: 100%;
+    height: 50px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .contacts__card-icon {
+      max-width: 25px;
+      width: 100%;
+      height: 25px;
+  }
+}

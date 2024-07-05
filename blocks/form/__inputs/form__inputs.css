@@ -1,0 +1,5 @@
+.form__inputs {
+  display: flex;
+    justify-content: space-between;
+    column-gap: calc(30/1320*100%);
+}

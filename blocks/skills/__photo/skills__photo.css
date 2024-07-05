@@ -1,0 +1,18 @@
+.skills__photo {
+  position: relative;
+  align-self: flex-end;
+  max-width: calc(600 / 1320* 100%);
+  width: 100%;
+  background-image: url(../../../images/fon.png);
+  background-size: contain;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  height: 0;
+  padding-top: calc(365 / 600* 100%);
+}
+
+@media screen and (max-width: 420px) {
+  .skills__photo {
+    align-self: center;
+  }
+}

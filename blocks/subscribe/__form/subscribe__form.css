@@ -1,0 +1,8 @@
+.subscribe__form {
+  display: flex;
+  max-width: 40%;
+  width: 100%;
+  background-color: #fff;
+  border-radius: 80px;
+}
+

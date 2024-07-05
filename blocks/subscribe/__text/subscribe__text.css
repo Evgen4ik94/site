@@ -1,0 +1,10 @@
+.subscribe__text {
+  font-size: 1.125em;
+  line-height: 1.2;
+}
+
+@media screen and (max-width: 520px) {
+  .subscribe__text {
+      font-size: 0.55em;
+  }
+}

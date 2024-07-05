@@ -1,0 +1,13 @@
+.scale__line {
+  height: 18px;
+  background-color: #fff;
+  border-radius: 18px;
+  position: relative;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 1024px) {
+  .scale__line {
+    height: 12px;
+  }
+}

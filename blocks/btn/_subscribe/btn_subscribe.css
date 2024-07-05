@@ -1,0 +1,21 @@
+.btn_subscribe {
+  max-width: calc(190/550*100%);
+  width: 100%;
+  border-radius: 80px;
+  height: auto;
+  border-color: #FE461C;
+  border-style: none;
+}
+
+@media screen and (max-width: 768px) {
+  .btn_subscribe {
+      padding: 5px;
+      font-size: 0.8em;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .btn_subscribe {
+      font-size: 0.5em;
+  }
+}

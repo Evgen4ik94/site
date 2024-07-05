@@ -1,0 +1,25 @@
+.services__item {
+  padding: calc(41/1320*100%);
+  padding-left: calc(25/1320*100%);
+  padding-right: calc(25/1320*100%);
+  max-height: 360px;
+  max-width: 25%;
+  width: 100%;
+  background-color: #1F2235;
+  box-shadow: 0px 0px 2px 0px #0F10186B;
+}
+
+@media screen and (max-width: 1440px) {
+  .services__item {
+    padding-left: calc(25/1320*100%);
+    padding-right: calc(25/1320*100%);
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .services__item {
+    max-width: 100%;
+    padding: 5%;
+    border-radius: 5%;
+  }
+}

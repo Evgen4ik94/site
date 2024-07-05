@@ -1,0 +1,19 @@
+.about {
+  position: relative;
+  margin: 0 auto;
+  display: flex;
+    justify-content:flex-start;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    column-gap: calc(76/1920*100%);
+  padding-top: calc(163/1320*100%);
+  padding-bottom: calc(33/1320*100%);
+}
+
+@media screen and (max-width: 420px) {
+  .about {
+    align-items: center;
+    flex-direction: column;
+  }
+}
+

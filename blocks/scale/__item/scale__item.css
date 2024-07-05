@@ -1,0 +1,11 @@
+.scale__item {
+  display: flex;
+    flex-direction: column;
+  gap: 15px;
+}
+
+@media screen and (max-width: 520px) {
+  .scale__item {
+    gap: 5px;
+  }
+}

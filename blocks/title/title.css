@@ -1,0 +1,32 @@
+.title {
+  background-color: #3b3d54;
+  border-radius: 4px;
+  max-width: fit-content;
+  box-shadow: 0px 0px 24px 0px #0F10186B;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 12px;
+  letter-spacing: 0.15em;
+  text-align: center;
+  padding: 12px 14px;
+  margin: 0;
+}
+
+@media screen and (max-width: 1600px) {
+  .title {
+    font-size: 0.9em;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .title {
+    padding: 6px 7px;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .title {
+      padding: 3px 3px;
+      font-size: 0.6em;
+  }
+}

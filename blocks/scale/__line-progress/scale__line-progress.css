@@ -1,0 +1,19 @@
+.scale__line-progress {
+  height: inherit;
+  background-color: #FE461C;
+  border-radius: inherit;
+  position: relative;
+}
+
+.scale__line-progress.p90 {
+  left: -10%;
+}
+.scale__line-progress.p80 {
+  left: -20%;
+}
+.scale__line-progress.p70 {
+  left: -30%;
+}
+.scale__line-progress.p60 {
+  left: -40%;
+}

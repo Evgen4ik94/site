@@ -1,0 +1,11 @@
+.about__content {
+  display: flex;
+  column-gap: calc(54/1320*100%);
+  padding: 8% 0;
+}
+
+@media screen and (max-width: 520px) {
+  .about__content {
+    padding: 5% 0 8%;
+  }
+}

@@ -1,0 +1,27 @@
+.contacts__info {
+  max-width: 1320px;
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+    flex-wrap: nowrap;
+    column-gap: 100px;
+    justify-content: space-between;
+  padding: 46px calc(75/1320*100%) 120px;
+}
+
+@media screen and (max-width: 1024px) {
+  .contacts__info {
+    column-gap: 50px;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .contacts__info {
+    flex-flow: column wrap;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 0;
+  }
+}
+
+

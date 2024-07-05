@@ -1,0 +1,29 @@
+.socials {
+  position: fixed;
+  left: 0;
+  top: 33%;
+  max-width: 50px;
+  width: 100%;
+  z-index: 999;
+  display: flex;
+  flex-flow: column wrap;
+  gap: 10px;
+}
+
+
+@media screen and (max-width: 1600px) {
+  .socials {
+    max-width: 40px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .socials {
+    top: 0;
+    position: relative;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    column-gap: 5px;
+    max-width: 80px;
+  }
+}

@@ -1,0 +1,20 @@
+.services__list {
+  display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    column-gap: calc(31/1320*100%);
+  padding-top: calc(55/1320*100%);
+  width: 100%;
+  max-width: 1320px;
+}
+
+@media screen and (max-width: 420px) {
+  .services__list {
+    display: grid;
+    grid-template-columns: repeat(2, 40%);
+    justify-items: center;
+    gap: 10px;
+    width: 90%;
+    justify-content: space-evenly;
+  }
+}

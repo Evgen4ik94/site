@@ -1,0 +1,8 @@
+.form__input-area {
+  max-width: 100%;
+  min-width: 100%;
+  min-height: 100px;
+  max-height: 300px;
+  height: 52%;
+  padding: 2% 5%;
+}

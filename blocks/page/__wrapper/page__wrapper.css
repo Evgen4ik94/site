@@ -1,0 +1,32 @@
+.page__wrapper {
+  max-width: 1920px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 1600px) {
+  .page__wrapper {
+    max-width: 1600px;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .page__wrapper {
+    max-width: 1440px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .page__wrapper {
+    max-width: 1280px;
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  .page__wrapper {
+    max-width: 1024px;
+  }
+}

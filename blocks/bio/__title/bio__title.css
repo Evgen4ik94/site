@@ -1,0 +1,14 @@
+.bio__title {
+  font-weight: 900;
+  font-size: 1em;
+  line-height: 1.2;
+  letter-spacing: 0.15em;
+}
+
+@media screen and (max-width: 520px) {
+  .bio__title {
+    font-size: .5em;
+    line-height: 1.2;
+    letter-spacing: 0.15em;
+  }
+}

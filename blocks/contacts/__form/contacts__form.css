@@ -1,0 +1,10 @@
+.contacts__form {
+  max-width: 50%;
+}
+
+
+@media screen and (max-width: 520px) {
+  .contacts__form {
+    max-width: 80%;
+  }
+}

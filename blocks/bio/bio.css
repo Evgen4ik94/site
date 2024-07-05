@@ -1,0 +1,24 @@
+.bio {
+  width: calc(654/1320*100%);
+  display: flex;
+  flex-flow: column wrap;
+  align-items: flex-start;
+  position: relative;
+  padding-top: calc(200/1140*100%);
+  padding-bottom: calc(200/1140*100%);
+}
+
+@media screen and (max-width: 1440px) {
+  .bio {
+    padding-top: calc(130/1140*100%);
+    padding-bottom: calc(100/1140*100%);
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .bio {
+      align-items: center;
+      padding: 70px 0 20px;
+      width: 100%;
+  }
+}
