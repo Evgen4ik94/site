@@ -1,15 +1,15 @@
-.portfolio__item_big-1 {
+.photo__item_big-1 {
   grid-row-start: 2;
   grid-row-end: -1;
 }
 
-.portfolio__item_big-2 {
+.photo__item_big-2 {
   grid-row-start: 1;
   grid-row-end: 3;
 }
 
 @media screen and (max-width: 420px) {
-  .portfolio__item_big-1 {
+  .photo__item_big-1 {
     grid-row-start: 1;
     grid-row-end: 1;
   }

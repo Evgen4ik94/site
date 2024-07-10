@@ -9,7 +9,7 @@
   margin: 0 auto;
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 520px) {
   .skills {
     padding: 0 10px 10%;
     flex-direction: column-reverse;

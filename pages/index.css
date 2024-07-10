@@ -55,12 +55,13 @@
 @import url(../blocks/portfolio/portfolio.css);
 @import url(../blocks/portfolio/__tabs/portfolio__tabs.css);
 @import url(../blocks/tab/tab.css);
+@import url(../blocks/tab/_active/tab_active.css);
 @import url(../blocks/portfolio/__grid/portfolio__grid.css);
-@import url(../blocks/portfolio/__item/portfolio__item.css);
-@import url(../blocks/portfolio/__item/__item_big/portfolio__item_big.css);
-@import url(../blocks/portfolio/__item-img/portfolio__item-img.css);
-@import url(../blocks/portfolio/__item-caption/portfolio__item-caption.css);
-@import url(../blocks/portfolio/__item-head/portfolio__item-head.css);
+@import url(../blocks/photo/__item/photo__item.css);
+@import url(../blocks/photo/__item/__item_big/photo__item_big.css);
+@import url(../blocks/photo/__item-img/photo__item-img.css);
+@import url(../blocks/photo/__item-caption/photo__item-caption.css);
+@import url(../blocks/photo/__item-head/photo__item-head.css);
 @import url(../blocks/services/services.css);
 @import url(../blocks/services/__list/services__list.css);
 @import url(../blocks/services/__icon/services__icon.css);
@@ -71,7 +72,6 @@
 @import url(../blocks/skills/__info/skills__info.css);
 @import url(../blocks/skills/__photo/skills__photo.css);
 @import url(../blocks/skills/__tabs/skills__tabs.css);
-@import url(../blocks/skills/__tab/skills__tab.css);
 @import url(../blocks/scale/scale.css);
 @import url(../blocks/scale/__item/scale__item.css);
 @import url(../blocks/scale/__text/scale__text.css);
@@ -106,9 +106,18 @@
 
 /* POPUPS */
 @import url(../blocks/popup/popup.css);
+@import url(../blocks/popup/_opened/popup_opened.css);
 @import url(../blocks/popup/__container/popup__container.css);
 @import url(../blocks/popup/__button-close/popup__button-close.css);
 @import url(../blocks/popup/__head/popup__head.css);
+@import url(../blocks/popup/__image/popup__image.css);
+@import url(../blocks/popup/__image-container/popup__image-container.css);
+@import url(../blocks/popup/__image-caption/popup__image-caption.css);
+@import url(../blocks/popup/__item/popup__item.css);
+
+
+@import url(../blocks/contacts/__info/contacts__info_popup/contacts__info_popup.css);
+@import url(../blocks/socials/_popup/socials_popup.css);
 
 /*div, header, nav, main, footer, p, a, ul, li, h2 {
   outline: .1px solid red;

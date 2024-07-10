@@ -12,3 +12,9 @@
     padding: 5%;
   }
 }
+
+@media screen and (max-width: 520px) {
+  .contacts__card {
+    padding: 2%;
+  }
+}

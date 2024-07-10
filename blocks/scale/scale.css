@@ -1,5 +1,5 @@
 .scale {
-  display: flex;
+  display: none;
     flex-direction: column;
     justify-content: space-between;
     gap: 43px;
@@ -16,4 +16,8 @@
   .scale {
       gap: 10px;
   }
+}
+
+.scale._active {
+  display: flex;
 }

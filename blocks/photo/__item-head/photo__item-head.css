@@ -1,4 +1,4 @@
-.portfolio__item-head {
+.photo__item-head {
   font-size: 1.5em;
   font-weight: 600;
   line-height: 1.2;
@@ -7,7 +7,7 @@
 }
 
 @media screen and (max-width: 768px) {
-  .portfolio__item-head {
+  .photo__item-head {
     font-size: 1em;
     line-height: 1;
     padding-bottom: 5px;
@@ -15,7 +15,7 @@
 }
 
 @media screen and (max-width: 520px) {
-  .portfolio__item-head {
+  .photo__item-head {
       font-size: .6em;
       padding: 0px;
   }
