@@ -55,6 +55,7 @@
 @import url(../blocks/portfolio/portfolio.css);
 @import url(../blocks/portfolio/__tabs/portfolio__tabs.css);
 @import url(../blocks/tab/tab.css);
+@import url(../blocks/tab/_active/tab_active.css);
 @import url(../blocks/portfolio/__grid/portfolio__grid.css);
 @import url(../blocks/portfolio/__item/portfolio__item.css);
 @import url(../blocks/portfolio/__item/__item_big/portfolio__item_big.css);
@@ -71,7 +72,6 @@
 @import url(../blocks/skills/__info/skills__info.css);
 @import url(../blocks/skills/__photo/skills__photo.css);
 @import url(../blocks/skills/__tabs/skills__tabs.css);
-@import url(../blocks/skills/__tab/skills__tab.css);
 @import url(../blocks/scale/scale.css);
 @import url(../blocks/scale/__item/scale__item.css);
 @import url(../blocks/scale/__text/scale__text.css);
@@ -106,9 +106,12 @@
 
 /* POPUPS */
 @import url(../blocks/popup/popup.css);
+@import url(../blocks/popup/_opened/popup_opened.css);
 @import url(../blocks/popup/__container/popup__container.css);
 @import url(../blocks/popup/__button-close/popup__button-close.css);
 @import url(../blocks/popup/__head/popup__head.css);
+@import url(../blocks/contacts/__info/contacts__info_popup/contacts__info_popup.css);
+@import url(../blocks/socials/_popup/socials_popup.css);
 
 /*div, header, nav, main, footer, p, a, ul, li, h2 {
   outline: .1px solid red;

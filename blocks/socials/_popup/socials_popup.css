@@ -1,0 +1,8 @@
+.socials_popup {
+  position: relative;
+  flex-flow: row nowrap;
+  top: 0;
+  max-width: 20%;
+  justify-content: space-evenly;
+  align-self: center;
+}

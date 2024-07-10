@@ -1,0 +1,27 @@
+.contacts__info_popup {
+  max-width: 90%;
+  padding: 0;
+  column-gap: 5%;
+}
+
+@media screen and (max-width: 1024px) {
+  .contacts__info_popup {
+    padding: 0;
+    font-size: 0.8em;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .contacts__info_popup {
+      font-size: 0.7em;
+    }
+  .contacts__info_popup>form>.btn {
+    width: 50%;
+    padding: 2%;
+    font-size: 1em;
+    height: 20px;
+  }
+}
+
+
+

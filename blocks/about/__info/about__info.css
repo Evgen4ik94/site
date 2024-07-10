@@ -4,3 +4,9 @@
     flex-flow: column wrap;
     padding: 1%;
 }
+
+@media screen and (max-width: 420px) {
+  .about__info{
+    max-width: 80%;
+  }
+}

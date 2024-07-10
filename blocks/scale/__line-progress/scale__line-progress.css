@@ -1,12 +1,23 @@
+@keyframes width100{
+  0% {
+    width: 0
+  }
+  100%{
+    width: 100%;
+  }
+}
+
 .scale__line-progress {
   height: inherit;
   background-color: #FE461C;
   border-radius: inherit;
   position: relative;
+  animation: width100 2s backwards;
 }
 
 .scale__line-progress.p90 {
   left: -10%;
+  animation: width100 2s backwards;
 }
 .scale__line-progress.p80 {
   left: -20%;

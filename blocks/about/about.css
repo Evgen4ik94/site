@@ -10,7 +10,7 @@
   padding-bottom: calc(33/1320*100%);
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 520px) {
   .about {
     align-items: center;
     flex-direction: column;

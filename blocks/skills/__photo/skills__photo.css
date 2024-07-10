@@ -11,7 +11,7 @@
   padding-top: calc(365 / 600* 100%);
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 520px) {
   .skills__photo {
     align-self: center;
   }

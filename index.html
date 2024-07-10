@@ -24,7 +24,7 @@
         <a href="#services" class="menu__item">Услуги</a>
         <a href="#skills" class="menu__item">Резюме</a>
         <a href="#contacts" class="menu__item">Контакты</a>
-        <button class="btn menu__item">Написать</button>
+        <button class="btn menu__item btn_contact">Написать</button>
         <div class="socials">
           <a class="socials__link" target="_blank" href="https://t.me/Evgen2111"><img class="icon" src="images\tg-w.png"></a>
           <a class="socials__link" target="_blank" href="https://vk.com/miliakov"><img class="icon" src="images\vk-w.png"></a>
@@ -45,7 +45,7 @@
           <h1 class="bio__subtitle subtitle">Привет, это Евгений<br> <span class="orange-span">Инженер и разработчик.</span> </h1>
           <p class="text bio__text">Помогу Вам в разработке полиграфии, инфографики, визуализации, сайтов,<br>
             а также в оформлении чертежей, 3D-моделей и технической документации.</p>
-          <button class="btn">Связаться</button>
+          <button class="btn btn_contact">Связаться</button>
       </div>
       <div class="ellips">
         <img class="bio__avatar" src="./images/me1.png">
@@ -89,13 +89,13 @@
       <div class="title">Портфолио</div>
       <h2 class="subtitle">Мои работы</h2>
       <div class="portfolio__tabs tabs">
-        <div class="portfolio__tab tab">Все</div>
-        <div class="portfolio__tab tab">Полиграфия</div>
-        <div class="portfolio__tab tab">Web</div>
-        <div class="portfolio__tab tab">Чертежи</div>
-        <div class="portfolio__tab tab">Прочее</div>
+        <button class="tab tab_active">Все</button>
+        <button class="tab">Полиграфия</button>
+        <button class="tab">Web</button>
+        <button class="tab">Чертежи</button>
+        <button class="tab">Прочее</button>
       </div>
-      <div class="portfolio__grid">
+      <div class="portfolio__grid" id="all">
         <figure class="portfolio__item">
           <img class="portfolio__item-img" src="#" alt="">
           <div class="portfolio__item-caption">
@@ -149,25 +149,25 @@
           <div class="services__item">
             <img src="images\poly.png" class="services__icon">
             <p class="services__item-title title">Полиграфия</p>
-            <p class="services__item-text text">Conveniently and proacvenique and idene solutions easyuse enjoy collaboration... </p>
+            <p class="services__item-text text">Разработка макетов полиграфической продукции: визитки, баннеры, буклеты, листовки, календари, каталоги и многое другое.</p>
             <button class="btn btn_circle"></button>
           </div>
           <div class="services__item">
             <img src="images\dev.png" class="services__icon">
             <p class="services__item-title title">Веб-разработка</p>
-            <p class="services__item-text text">Conveniently and proacvenique and idene solutions easyuse enjoy collaboration... </p>
+            <p class="services__item-text text">Разработка макетов полиграфической продукции: визитки, баннеры, буклеты, листовки, календари, каталоги и многое другое.</p>
             <button class="btn btn_circle"></button>
           </div>
           <div class="services__item">
             <img src="images\drw.png" class="services__icon">
             <p class="services__item-title title">Графика</p>
-            <p class="services__item-text text">Conveniently and proacvenique and idene solutions easyuse enjoy collaboration... </p>
+            <p class="services__item-text text">Разработка макетов полиграфической продукции: визитки, баннеры, буклеты, листовки, календари, каталоги и многое другое.</p>
             <button class="btn btn_circle"></button>
           </div>
           <div class="services__item">
             <img src="images\graph.png" class="services__icon">
             <p class="services__item-title title">Чертежи</p>
-            <p class="services__item-text text">Conveniently and proacvenique and idene solutions easyuse enjoy collaboration... </p>
+            <p class="services__item-text text">Разработка макетов полиграфической продукции: визитки, баннеры, буклеты, листовки, календари, каталоги и многое другое.</p>
             <button class="btn btn_circle"></button>
           </div>
         </div>
@@ -179,9 +179,10 @@
           <div class="title">Резюме</div>
           <h2 class="subtitle">Навыки & Опыт</h2>
           <div class="skills__tabs tabs">
-            <div class="skills__tab tab">Дизайн</div>
-            <div class="skills__tab tab">Разработка</div>
-            <div class="skills__tab tab">Графика</div>
+            <button class="tab">Полиграфия</button>
+            <button class="tab">Разработка</button>
+            <button class="tab">Графика</button>
+            <button class="tab">Чертежи</button>
           </div>
           <div class="scale">
             <div class="scale__item">
@@ -285,10 +286,59 @@
     <!-- POPUPS -->
     <div class="popup popup_contact-me">
       <div class="popup__container">
-        <button class="popup__button-close" type="button"></button>
-        <h3 class="popup__head">Редактировать профиль</h3>
+        <button class="popup__btn-close" type="button"></button>
+        <h3 class="popup__head">Обратная связь</h3>
       </div>
     </div>
+
+    <!-- TEMPLATES -->
+  <template id="gallery">
+    <div class="portfolio__grid">
+      <figure class="portfolio__item">
+        <img class="portfolio__item-img" src="#" alt="">
+        <div class="portfolio__item-caption">
+          <h3 class="portfolio__item-head text">Веб-приложение на React</h3>
+          <p class="portfolio__item-text text">Проект Mesto: Russia...</p>
+        </div>
+      </figure>
+      <figure class="portfolio__item portfolio__item_big-1">
+        <img class="portfolio__item-img" src="#" alt="">
+        <div class="portfolio__item-caption">
+          <h3 class="portfolio__item-head text">Веб-приложение на React</h3>
+          <p class="portfolio__item-text text">Проект Mesto: Russia...</p>
+        </div>
+      </figure>
+      <figure class="portfolio__item">
+        <img class="portfolio__item-img" src="#" alt="">
+        <div class="portfolio__item-caption">
+          <h3 class="portfolio__item-head text">Веб-приложение на React</h3>
+          <p class="portfolio__item-text text">Проект Mesto: Russia...</p>
+        </div>
+      </figure>
+      <figure class="portfolio__item portfolio__item_big-2">
+        <img class="portfolio__item-img" src="#" alt="">
+        <div class="portfolio__item-caption">
+          <h3 class="portfolio__item-head text">Веб-приложение на React</h3>
+          <p class="portfolio__item-text text">Проект Mesto: Russia...</p>
+        </div>
+      </figure>
+      <figure class="portfolio__item">
+        <img class="portfolio__item-img" src="#" alt="">
+        <div class="portfolio__item-caption">
+          <h3 class="portfolio__item-head text">Веб-приложение на React</h3>
+          <p class="portfolio__item-text text">Проект Mesto: Russia...</p>
+        </div>
+      </figure>
+      <figure class="portfolio__item portfolio__item_big-1">
+        <img class="portfolio__item-img" src="#" alt="">
+        <div class="portfolio__item-caption">
+          <h3 class="portfolio__item-head text">Веб-приложение на React</h3>
+          <p class="portfolio__item-text text">Проект Mesto: Russia...</p>
+        </div>
+      </figure>
+    </div>
+  </template>
+    <!-- END TEMPLATES -->
 <script src="index.js"></script>
 
 </body>
