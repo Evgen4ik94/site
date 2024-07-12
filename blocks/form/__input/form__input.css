@@ -31,3 +31,11 @@
     font-size: 0.75em;
   }
 }
+
+@media screen and (max-width: 520px) {
+  .form__input {
+    padding: 5px 0;
+    padding-left: 10px;
+    font-size: 0.75em;
+  }
+}

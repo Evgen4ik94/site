@@ -16,8 +16,7 @@ const cloneContacts = contacts.cloneNode(true);
 //---TABS---//
 const portfolio = document.querySelector('.portfolio');
 const portfolioTabs = portfolio.querySelectorAll('.tab');
-const skills = document.querySelector('.skills');
-const skillsTabs = skills.querySelectorAll('.tab');
+const skills = document.querySelector('.skills__tabs');
 
 //---POPUPS---//
 const popup = document.querySelectorAll('.popup')
@@ -29,11 +28,6 @@ const popupImageCaption = fullImage.querySelector('.popup__image-caption');
 const images = document.querySelectorAll('.photo__item-img');
 
 
-
-const tabs = (evt) => {
-  evt.target.querySelectorAll('.tab');
-}
-
 //------------ Open-Popups -------------//
 function openPopup(popup) { //Функцию передаем в обработчик по клику на элемент DOM
   popup.classList.add('popup_opened'); //Функция добавляет класс popup_opened
@@ -43,7 +37,7 @@ function openPopup(popup) { //Функцию передаем в обработ�
 function openImagePopup(image) {
   image.querySelector('.photo__item-img').addEventListener('click', evt => { //По клику на DOM элемент с картинкой выполняется функция
     popupImage.src = evt.target.src;                                     // которая заполняет атрибуты элементов поп-апа
-    popupImageCaption.textContent = evt.target.alt;
+    popupImageCaption.textContent = evt.target.querySelector('.photo__item-text').textContent;
     popupImageCaption.alt = evt.target.alt;
     openPopup(fullImage); // И вызывается функция открытия поп-апа
   });
@@ -180,41 +174,20 @@ portfolioTabs.forEach(tab => {
   });
 })
 
+skills.addEventListener('click', function (evt) {
+  // Получаем предыдущую активную кнопку
+  const prevActiveButton = skills.querySelector('.tab._active');
+  // Получаем предыдущую активную вкладку
+  const prevActiveTab = skills.querySelector('.skills__list._active');
 
-// Проходимся по всем кнопкам
-skillsTabs.forEach(tab => {
-  // вешаем на каждую кнопку обработчик события клик
-  tab.addEventListener('click', () => {
-    // Получаем предыдущую активную кнопку
-    const prevActiveButton = skills.querySelector('.tab.tab_active');
-    // Получаем предыдущую активную вкладку
-    const prevActiveItem = skills.querySelector('._active');
-
-    // Проверяем есть или нет предыдущая активная вкладка
-    if (prevActiveItem) {
-      //Удаляем класс _active у предыдущей вкладки если она есть
-      prevActiveItem.classList.remove('_active');
+  if (evt.target.classList.contains('skills__tab')) {
+    evt.target.parentElement.querySelector('.skills__list').classList.toggle('_active'); // Помещаем перед условием, чтобы вкладка закрывалась при повторном нажатии
+    evt.target.parentElement.querySelector('.skills__tab').classList.toggle('_active');
+    if (prevActiveTab) {
+      // Удаляем класс _active у предыдущей вкладки если она есть
+      prevActiveTab.classList.remove('_active');
+      prevActiveButton.classList.remove('_active');
     }
-
-    // Проверяем есть или нет предыдущая активная кнопка
-    if (prevActiveButton) {
-      // Удаляем класс _active у предыдущей кнопки если она есть
-      prevActiveButton.classList.remove('tab_active');
-    }
-    // получаем id новой активной вкладки, который мы перем из атрибута data-tab у кнопки
-    const nextActiveItemId = `#${tab.getAttribute('data-tab')}`;
-    console.log(nextActiveItemId);
-    // получаем новую активную вкладку по id
-    const nextActiveItem = skills.querySelector(nextActiveItemId);
-
-    // добавляем класс _active кнопке на которую нажали
-    tab.classList.add('tab_active');
-    // добавляем класс _active новой выбранной вкладке
-    nextActiveItem.classList.add('_active');
-  });
-})
-
-
-
-
+  }
+ });
 

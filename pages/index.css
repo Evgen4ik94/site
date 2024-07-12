@@ -58,7 +58,6 @@
 @import url(../blocks/tab/_active/tab_active.css);
 @import url(../blocks/portfolio/__grid/portfolio__grid.css);
 @import url(../blocks/photo/__item/photo__item.css);
-@import url(../blocks/photo/__item/__item_big/photo__item_big.css);
 @import url(../blocks/photo/__item-img/photo__item-img.css);
 @import url(../blocks/photo/__item-caption/photo__item-caption.css);
 @import url(../blocks/photo/__item-head/photo__item-head.css);
@@ -72,6 +71,9 @@
 @import url(../blocks/skills/__info/skills__info.css);
 @import url(../blocks/skills/__photo/skills__photo.css);
 @import url(../blocks/skills/__tabs/skills__tabs.css);
+@import url(../blocks/skills/__tab/skills__tab.css);
+@import url(../blocks/skills/__list/skills__list.css);
+@import url(../blocks/skills/__list-item/skills__list-item.css);
 @import url(../blocks/scale/scale.css);
 @import url(../blocks/scale/__item/scale__item.css);
 @import url(../blocks/scale/__text/scale__text.css);

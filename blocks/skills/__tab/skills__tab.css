@@ -1,0 +1,18 @@
+.skills__tab {
+  width: 100%;
+  padding: 2%;
+}
+
+.skills__tab:hover {
+  transform: scale(1.01);
+  transition: all ease-in-out .5;
+}
+
+.skills__tab._active {
+  transition: all ease-in-out .8s;
+  text-align: center;
+  background-color: #FE461C;
+  box-shadow: 0 5px 5px rgba(255, 255, 255, 0.2);
+  border-radius: 5px 5px 0 0;
+  width: 25%;
+}

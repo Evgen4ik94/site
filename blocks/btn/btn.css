@@ -24,22 +24,20 @@
 
 @media screen and (max-width: 768px) {
   .btn {
-    padding: 5px;
-    width: 100px;
-    height: 30px;
+    border-radius: 3px;
+    padding: 5px 10px;
+    width: fit-content;
+    height: 20px;
+    font-size: 0.8em;
+    display: flex;
+      align-items: center;
+      justify-content: center;
   }
 }
 
 @media screen and (max-width: 520px) {
   .btn {
-      width: 25%;
-      height: 22px;
-      font-size: 1em;
-  }
-}
-
-@media screen and (max-width: 420px) {
-  .btn {
-      align-self: center;
+    border-radius: 2px;
+    height: 15px;
   }
 }

@@ -1,0 +1,17 @@
+.skills__list {
+  margin: 0;
+  padding: 0px;
+  border-top: 1px solid #FE461C;
+  border-bottom: 1px solid #FE461C;
+  height: 0;
+  visibility: hidden;
+  font-size: 1em;
+  line-height: 2;
+}
+
+.skills__list._active {
+  transition: all cubic-bezier(0.47, 0, 0.745, 0.715) .7s;
+  height: auto;
+  visibility: visible;
+  padding: 0 0 0 20px;
+}

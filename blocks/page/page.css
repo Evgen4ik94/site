@@ -2,6 +2,16 @@
   box-sizing: border-box;
 }
 
+
+  ::-webkit-scrollbar {
+  width: 0px;  /* remove scrollbar space */
+  background: transparent;  /* optional: just make scrollbar invisible */
+    }
+  /* optional: show position indicator in red */
+  ::-webkit-scrollbar-thumb {
+  background: #FF0000;
+   }
+
 .page {
   max-width: 1920px;
   min-width: 320px;
@@ -21,6 +31,8 @@
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
   text-rendering: optimizeLegibility;
+  overflow: scroll;
+  overflow-x: hidden;
 }
 
 @media screen and (max-width: 1600px) {

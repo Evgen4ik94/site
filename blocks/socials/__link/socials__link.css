@@ -4,7 +4,6 @@
   display: flex;
   justify-content: center;
   background-color: #3b3d54;
-  border: 2px solid #00000020;
   border-radius: 5px;
   box-shadow: 0px 0px 24px 0px #0F10186B;
   transition: all ease-in-out .3s;
@@ -38,5 +37,20 @@
     height: 25px;
     border-radius: 2px;
     border: 1px solid #00000020;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .socials__link {
+    width: 20px;
+    height: 20px;
+    border-radius: 1px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .socials__link {
+      width: 15px;
+      height: 15px;
   }
 }
