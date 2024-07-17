@@ -1,0 +1,4 @@
+.menu__mobile_active {
+  display: flex;
+  padding: 40px 0 20px;
+}

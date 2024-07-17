@@ -1,0 +1,15 @@
+.portfolio__item-caption {
+  padding: 0 10px;
+    display: flex;
+    flex-flow: column nowrap;
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+}
+
+@media screen and (max-width: 520px) {
+  .portfolio__item-caption {
+    padding: 0px 5px;
+    bottom: 5px;
+  }
+}

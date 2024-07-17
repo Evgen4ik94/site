@@ -16,5 +16,6 @@
 @media screen and (max-width: 620px) {
   .about__string {
     text-align: left;
+    line-height: 1.5;
   }
 }

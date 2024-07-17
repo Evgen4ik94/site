@@ -1,7 +1,7 @@
 .portfolio__grid {
   display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 0.75fr);
     justify-items: stretch;
   gap: 24px;
   width: 100%;
@@ -9,7 +9,7 @@
 
 @media screen and (max-width: 1320px) {
   .portfolio__grid {
-    width: 90%;
+    width: 95%;
     gap: 12px;
   }
 }

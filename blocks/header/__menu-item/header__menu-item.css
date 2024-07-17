@@ -1,0 +1,14 @@
+.header__menu-item {
+  font-size: 18px;
+  line-height: 16px;
+  font-weight: 700;
+  list-style: none;
+  color: #fff;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.header__menu-item:focus {
+  color: #FE461C;
+}
