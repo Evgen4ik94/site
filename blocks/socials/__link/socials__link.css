@@ -26,11 +26,12 @@
 
 @media screen and (max-width: 1024px) {
   .socials__link {
-    width: 28px;
-    height: 28px;
+    width: 30px;
+    height: 30px;
   }
 }
 
+<<<<<<< HEAD
 @media screen and (max-width: 768px) {
   .socials__link {
     width: 25px;
@@ -54,3 +55,8 @@
       height: 15px;
   }
 }
+=======
+
+
+
+>>>>>>> main

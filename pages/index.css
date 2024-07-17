@@ -18,6 +18,7 @@
 
 /* HEADER */
 @import url(../blocks/header/header.css);
+@import url(../blocks/header/_fixed/header_fixed.css);
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/menu/menu.css);
 @import url(../blocks/menu/__mobile/menu__mobile.css);
@@ -46,7 +47,6 @@
 @import url(../blocks/bio/__icon/_vsc/bio__icon_vsc.css);
 @import url(../blocks/bio/__avatar/bio__avatar.css);
 @import url(../blocks/about/__photo/about__photo.css);
-@import url(../blocks/photo/photo.css);
 @import url(../blocks/about/__info/about__info.css);
 @import url(../blocks/about/__text/about__text.css);
 @import url(../blocks/about/__content/about__content.css);
@@ -57,10 +57,11 @@
 @import url(../blocks/tab/tab.css);
 @import url(../blocks/tab/_active/tab_active.css);
 @import url(../blocks/portfolio/__grid/portfolio__grid.css);
+@import url(../blocks/photo/photo.css);
 @import url(../blocks/photo/__item/photo__item.css);
-@import url(../blocks/photo/__item-img/photo__item-img.css);
-@import url(../blocks/photo/__item-caption/photo__item-caption.css);
-@import url(../blocks/photo/__item-head/photo__item-head.css);
+@import url(../blocks/photo/__caption/photo__caption.css);
+@import url(../blocks/photo/__head/photo__head.css);
+@import url(../blocks/photo/__text/photo__text.css);
 @import url(../blocks/services/services.css);
 @import url(../blocks/services/__list/services__list.css);
 @import url(../blocks/services/__icon/services__icon.css);

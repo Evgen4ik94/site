@@ -1,4 +1,5 @@
 .photo__item {
+<<<<<<< HEAD
   min-height: 320px;
   border-radius: 8px;
   background-color: #c1c1c1a3;
@@ -38,4 +39,15 @@
   .photo__item:nth-child(6) {
       display: none;
   }
+=======
+  width: 100%;
+  height: 100%;
+  border-radius: inherit;
+}
+
+.photo__item:hover {
+  transform: scale(.99);
+  opacity: 0.8;
+  transition: all ease-in-out .4s;
+>>>>>>> main
 }
