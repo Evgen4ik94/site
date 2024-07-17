@@ -1,0 +1,11 @@
+.header_fixed {
+  position: fixed;
+  background-color: #3b3d54;
+  z-index: 999;
+  max-width: 100vw;
+  width: 100%;
+  padding: 0 5%;
+}
+
+
+

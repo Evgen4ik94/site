@@ -8,13 +8,12 @@
   max-width: 1320px;
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 520px) {
   .services__list {
     display: grid;
     grid-template-columns: repeat(2, 40%);
     justify-items: center;
     gap: 10px;
-    width: 90%;
     justify-content: space-evenly;
   }
 }

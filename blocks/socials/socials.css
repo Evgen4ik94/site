@@ -24,6 +24,6 @@
     flex-flow: row nowrap;
     justify-content: space-between;
     column-gap: 5px;
-    max-width: 80px;
+    max-width: 120px;
   }
 }

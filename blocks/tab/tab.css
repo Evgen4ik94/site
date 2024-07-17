@@ -1,20 +1,19 @@
 .tab {
   background-color: #dbdcdf24;
-  padding: 10px;
+  padding: 0.5% 1%;
   font-size: 1em;
   font-weight: 600;
   line-height: 1.2;
   text-align: left;
   color: #fff;
   border-style: none;
-  border-radius: 5px 5px 0 0;
 }
 
 .tab:hover {
   cursor: pointer;
-  text-decoration: underline;
   background-color: #0acf83;
   box-shadow: 0 5px 5px rgba(255, 255, 255, 0.2);
+  transform: scale(1.1);
   transition: all ease-in-out .5s;
 }
 
@@ -22,7 +21,7 @@
 @media screen and (max-width: 520px) {
   .tab {
     padding: 3px;
-    font-size: .75em;
+    font-size: .5em;
     line-height: 1;
   }
 }

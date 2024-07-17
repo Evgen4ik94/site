@@ -1,32 +1,11 @@
 .photo__item {
-  min-height: 260px;
-  border-radius: 8px;
-  background-color: #c1c1c1a3;
-  margin: 0;
-  position: relative;
+  width: 100%;
+  height: 100%;
+  border-radius: inherit;
 }
 
-
-@media screen and (max-width: 1280px) {
-  .photo__item {
-    min-height: 220px;
-  }
-}
-
-@media screen and (max-width: 1024px) {
-  .photo__item {
-    min-height: 180px;
-  }
-}
-
-@media screen and (max-width: 520px) {
-  .photo__item {
-      min-height: 100px;
-  }
-}
-
-@media screen and (max-width: 420px) {
-  .photo__item:nth-child(6) {
-      display: none;
-  }
+.photo__item:hover {
+  transform: scale(.99);
+  opacity: 0.8;
+  transition: all ease-in-out .4s;
 }

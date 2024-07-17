@@ -1,6 +1,6 @@
 .skills__photo {
   position: relative;
-  align-self: flex-end;
+  align-self: center;
   max-width: calc(600 / 1320* 100%);
   width: 100%;
   background-image: url(../../../images/fon.png);

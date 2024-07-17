@@ -1,0 +1,8 @@
+.skills__list-item {
+  word-spacing: 2px;
+  letter-spacing: .5px;
+}
+
+.skills__list-item:hover {
+  text-decoration: underline .5px solid #FE461C;
+}

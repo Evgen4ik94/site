@@ -1,4 +1,17 @@
 .tab_active {
   background-color: #FE461C;
   box-shadow: 0 5px 5px rgba(255, 255, 255, 0.2);
+  border-radius: 5px 5px 0 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .tab_active {
+    border-radius: 3px 3px 0 0;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .tab_active {
+    border-radius: 1px 1px 0 0;
+  }
 }

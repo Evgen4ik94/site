@@ -26,7 +26,7 @@
 
 @media screen and (max-width: 520px) {
   .title {
-      padding: 3px 3px;
+      padding: 3px 5px;
       font-size: 0.6em;
   }
 }

@@ -12,8 +12,6 @@ const socials = document.querySelector('.socials');
 const contacts = document.querySelector('.contacts__form'); // Форма отправки сообщения из контактов
 const cloneSocials = socials.cloneNode(true);
 const cloneContacts = contacts.cloneNode(true);
-const galleryTemplate = document.querySelector('#gallery-template').content; //Кладем в переменную содержимое тега template
-const gallery = document.querySelector('.portfolio__grid');
 
 //---TABS---//
 const portfolio = document.querySelector('.portfolio');
@@ -21,13 +19,13 @@ const portfolioTabs = portfolio.querySelectorAll('.tab');
 const skills = document.querySelector('.skills__tabs');
 
 //---POPUPS---//
-const popup = document.querySelectorAll('.popup');
+const popup = document.querySelectorAll('.popup')
 const popupContactMe = document.querySelector('.popup_contact-me'); // Попап обратная связь
 const fullImage = document.querySelector('.popup_type_fullscreen-image'); //Попап full-изображения
 const popupImage = fullImage.querySelector('.popup__image');
 const popupImageCaption = fullImage.querySelector('.popup__image-caption');
 
-const images = document.querySelectorAll('.photo');
+const images = document.querySelectorAll('.photo__item-img');
 
 
 //------------ Open-Popups -------------//
@@ -37,9 +35,9 @@ function openPopup(popup) { //Функцию передаем в обработ�
 };
 
 function openImagePopup(image) {
-  image.querySelector('.photo__item').addEventListener('click', evt => { //По клику на DOM элемент с картинкой выполняется функция
+  image.querySelector('.photo__item-img').addEventListener('click', evt => { //По клику на DOM элемент с картинкой выполняется функция
     popupImage.src = evt.target.src;                                     // которая заполняет атрибуты элементов поп-апа
-    popupImageCaption.textContent = evt.target.querySelector('.photo__text').textContent;
+    popupImageCaption.textContent = evt.target.querySelector('.photo__item-text').textContent;
     popupImageCaption.alt = evt.target.alt;
     openPopup(fullImage); // И вызывается функция открытия поп-апа
   });
@@ -194,7 +192,7 @@ skills.addEventListener('click', function (evt) {
  });
 
 
- // --- STICKY MENU --- //
+ // --- Липкое меню --- //
  const element = document.querySelector('.header');
  document.addEventListener('scroll', function () {
        if (window.scrollY > 200) {
@@ -203,10 +201,4 @@ skills.addEventListener('click', function (evt) {
        element.classList.remove("header_fixed");
      }
  });
- // --- STICKY MENU END --- //
-
-
-// --- GALLERY --- //
-
-
-// --- GALLERY END --- //
+ // ---  --- //

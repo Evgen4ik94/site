@@ -13,7 +13,8 @@
 
 @media screen and (max-width: 768px) {
   .bio__subtitle {
-    font-size: 2em;
+    font-size: 1.5em;
+    padding-bottom: 20px;
   }
 }
 

@@ -1,15 +1,11 @@
 .header__logo {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   max-width: 100px;
   max-height: 100px;
 }
 
 @media screen and (max-width: 768px) {
   .header__logo {
-    height: 30px;
+    height: 100%;
     z-index: 999;
-    padding: 4% 0;
   }
 }

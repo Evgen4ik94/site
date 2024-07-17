@@ -28,19 +28,15 @@
   }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 768px) {
   .popup__container {
-    max-width: 80%;
-    gap: 20px;
+    max-width: 60%;
+    gap: 10px;
+    padding:  2%;
+    border-radius: 5px;
   }
 }
 
-@media screen and (max-width: 768px) {
-  .popup__container {
-    max-width: 80%;
-    padding: 4% 2%;
-  }
-}
 
 
 

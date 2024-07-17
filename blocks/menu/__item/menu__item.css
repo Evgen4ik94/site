@@ -37,11 +37,15 @@
   .menu__item:hover:not(:nth-child(7)) {
     border-radius: 2px;
   }
-  .menu__item:nth-child(7) {
-    margin-left: 0;
-  }
   .menu__item {
-    padding: 2px;
-    font-size: 1em;
+    padding: 3%;
+    font-size: 2em;
+  }
+}
+
+
+@media screen and (max-width: 420px) {
+  .menu__item {
+    padding: 5%;
   }
 }
