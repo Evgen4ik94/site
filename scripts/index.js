@@ -1,7 +1,7 @@
 //---BUTTONS---//
 const menuBtn = document.querySelector('.menu__btn');
 const btnContact = document.querySelectorAll('.btn_contact'); // Кнопка "Написать" в баннере
-const btnsClose = document.querySelectorAll('.popup__button-close'); //Кнопка "Закрыть" popup
+const btnsClose = document.querySelectorAll('.popup__btn-close'); //Кнопка "Закрыть" popup
 
 const menu = document.querySelector('.menu');
 const menuItem = document.querySelectorAll('.menu__item');
