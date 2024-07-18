@@ -25,8 +25,7 @@ const fullImage = document.querySelector('.popup_type_fullscreen-image'); //По
 const popupImage = fullImage.querySelector('.popup__image');
 const popupImageCaption = fullImage.querySelector('.popup__image-caption');
 
-const images = document.querySelectorAll('.photo__item-img');
-
+const images = document.querySelectorAll('.photo__item');
 
 //------------ Open-Popups -------------//
 function openPopup(popup) { //Функцию передаем в обработчик по клику на элемент DOM
@@ -192,13 +191,19 @@ skills.addEventListener('click', function (evt) {
  });
 
 
- // --- Липкое меню --- //
- const element = document.querySelector('.header');
+ // --- STICKY MENU --- //
+ /* const element = document.querySelector('.header');
  document.addEventListener('scroll', function () {
        if (window.scrollY > 200) {
        element.classList.add("header_fixed");
      } else {
        element.classList.remove("header_fixed");
      }
- });
- // ---  --- //
+ }); */
+ // --- STICKY MENU END --- //
+
+
+// --- GALLERY --- //
+
+
+// --- GALLERY END --- //
