@@ -1,0 +1,8 @@
+.sector {
+  position: relative;
+  top: -50%;
+  margin: 0 auto;
+  z-index: 1;
+  animation: 60s linear infinite rotate;
+  height: 200%;
+}
